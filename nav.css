@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: rgb(226, 43, 159);
+   font-family: Arial, Helvetica, sans-serif;
+   color: antiquewhite;
+  }
+  #uni{
+     display:flex;
+     list-style-type: none;
+     gap:12px;
+  }
+  button{
+       padding: 20px;
+       background-color:white;
+       width: 80px;
+       border-radius: 20px;
+       text-align: center;     
+      }
+      i{
+         visibility: visible;
+      }
+      @media only screen and (max-width:600px)
+      {
+         i{
+            visibility: visible;
+            
+         }
+         a{
+            display: none;
+         }
+      }

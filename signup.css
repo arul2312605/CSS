@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://media.istockphoto.com/id/629256720/photo/forest-road-on-a-cloudy-day.jpg?s=612x612&w=0&k=20&c=GFeQ9sLmlg9cwn-hKy4DlslDLG8p3OiivchkkuM2SWM=);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.heading {
+    text-align: center;
+    color: dodgerblue;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        background: white;
+        padding: 10px;
+        width: 350px;
+        ;
+        text-align: center;
+        border-radius: 7px;
+    }
+}
+
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    font-size: medium;
+    color: white;
+    font-size: larger;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid grey;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    border: none;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
+button a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
